@@ -1,0 +1,12 @@
+.blocks div{
+    animation: 5s rotate-block infinite;
+}
+
+@keyframes rotate-block{
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+}
